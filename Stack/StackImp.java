@@ -16,7 +16,7 @@ public class StackImp {
 	
 	public void push(int element) {
 		if(!isFull()) {
-			top++;
+			top++;  //-1+1 = [0]
 			arr[top]=element;
 			System.out.println("pushed element : "+element);
 		} else {
